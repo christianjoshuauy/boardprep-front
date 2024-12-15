@@ -94,10 +94,9 @@ function SignupModal({ closeModal, userType }: SignupModalProps) {
             onChange={(e) => setSpecialization(e.target.value)}
           >
             <option value="">Select Specialization</option>
-            <option value="1">Chemical Engineering</option>
-            <option value="2">Civil Engineering</option>
-            <option value="3">Electrical Engineering</option>
-            <option value="4">Mechanical Engineering</option>
+            <option value="1">Computer Science</option>
+            <option value="2">Information Technology</option>
+
           </select>
           <button type="submit" className="card-button">
             Create
